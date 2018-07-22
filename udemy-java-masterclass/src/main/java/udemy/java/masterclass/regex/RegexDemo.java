@@ -15,6 +15,12 @@ public class RegexDemo {
 
       System.out.println(alphanumeric.matches("^hello"));
       System.out.println(alphanumeric.matches("^abcDeee"));
+      System.out.println(alphanumeric.matches("abcDeeeF123GhhhiJkkkkkLmnnnnn"));
+
+      System.out.println(alphanumeric.replaceAll("nnn$", "THE END"));
+      System.out.println(alphanumeric.replaceAll("[aei]", "X"));
+      System.out.println(alphanumeric.replaceAll("[aei]", "I replaced a letter here"));
+      System.out.println(alphanumeric.replaceAll("[aei][Fj]", "X"));
    }
 
 }
