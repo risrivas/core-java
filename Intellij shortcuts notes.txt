@@ -1,0 +1,45 @@
+# navigating text
+
+- move one word at a time
+Ctrl
+
+- beginning of the line
+Home
+
+- end of the line
+End
+
+- scroll page up
+Page Up
+
+- scroll page down
+Page Down
+
+- move to the end of the file
+Ctrl + End
+
+- move to the start of the file
+Ctrl + Home
+
+===============================================
+
+# camel hump
+- search file name by using camel-case letters only
+type IOOBE to get IndexOutOfBoundsException
+
+===============================================
+
+# moving line and statement
+- move line up
+Shift + Alt + Up
+
+- move line down
+Shift + Alt + down
+
+- move statement (method/loop/block) up
+Shift + Ctrl + Up
+
+- move statement (method/loop/block) down
+Shift + Ctrl + down
+
+
