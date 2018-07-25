@@ -42,4 +42,38 @@ Shift + Ctrl + Up
 - move statement (method/loop/block) down
 Shift + Ctrl + down
 
+===============================================
 
+# duplicate line and delete
+- duplicate
+Ctrl + D
+
+- delete
+Ctrl + Y
+
+===============================================
+
+# view parameter information
+Ctrl + P
+
+===============================================
+
+# my own commands
+
+- remove unused imports
+Ctrl + Alt + O
+
+- reformat code
+Ctrl + Alt + L
+
+===============================================
+
+# commenting and block commenting code
+
+- toggle comment and uncomment
+Ctrl + /
+Shift + Ctrl + /
+
+===============================================
+
+ 
