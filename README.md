@@ -1,2 +1,5 @@
-# core-java
-Core Java projects and TDD
+# Core Java
+
+* IntelliJ shotcuts and refactoring
+* Java masterclass
+* Java memory management
