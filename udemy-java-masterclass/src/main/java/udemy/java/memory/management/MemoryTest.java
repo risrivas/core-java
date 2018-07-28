@@ -12,7 +12,7 @@ public class MemoryTest {
         Container container = new Container();
         container.setInitial("C");
         another(container, last);
-        System.out.print(container.getInitial());
+        System.out.println(container.getInitial());
     }
 
     private void another(Container initialHolder, String newInitial) {
@@ -20,7 +20,7 @@ public class MemoryTest {
         initialHolder.setInitial("B");
         Container initial2 = new Container();
         initialHolder = initial2;
-        System.out.print(initialHolder.getInitial());
-        System.out.print(newInitial);
+        System.out.println(initialHolder.getInitial());
+        System.out.println(newInitial);
     }
 }
