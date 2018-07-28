@@ -86,4 +86,18 @@ Ctrl + NumPad+
 
 ===============================================
 
- 
+- navigate to class
+Ctrl + N
+
+- navigate to symbol
+Shift + Ctrl + Alt + N
+
+- navigate to file or folder
+Shift + Ctrl + N
+
+- navigate back
+Ctrl + Alt + Left Arrow
+
+===============================================
+
+
