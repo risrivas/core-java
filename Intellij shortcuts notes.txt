@@ -76,4 +76,14 @@ Shift + Ctrl + /
 
 ===============================================
 
+# folding and expanding code
+
+- fold
+Ctrl + NumPad-
+
+- expland
+Ctrl + NumPad+
+
+===============================================
+
  
