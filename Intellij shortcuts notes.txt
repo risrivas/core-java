@@ -24,6 +24,7 @@ Ctrl + Home
 ===============================================
 
 # camel hump
+
 - search file name by using camel-case letters only
 type IOOBE to get IndexOutOfBoundsException
 
@@ -66,6 +67,12 @@ Ctrl + Alt + O
 - reformat code
 Ctrl + Alt + L
 
+- read java docs
+Ctrl + Q
+
+- open the scratch file
+Shift + Ctrl + Alt + Insert
+
 ===============================================
 
 # commenting and block commenting code
@@ -81,7 +88,7 @@ Shift + Ctrl + /
 - fold
 Ctrl + NumPad-
 
-- expland
+- expand
 Ctrl + NumPad+
 
 ===============================================
@@ -97,6 +104,9 @@ Shift + Ctrl + N
 
 - navigate back
 Ctrl + Alt + Left Arrow
+
+- navigate to action
+Ctrl + Shift + A
 
 ===============================================
 
