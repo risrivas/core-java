@@ -26,22 +26,23 @@ Ctrl + Home
 # camel hump
 
 - search file name by using camel-case letters only
+Ctrl + N
 type IOOBE to get IndexOutOfBoundsException
 
 ===============================================
 
 # moving line and statement
 - move line up
-Shift + Alt + Up
+Alt + Shift + Up
 
 - move line down
-Shift + Alt + down
+Alt + Shift + down
 
 - move statement (method/loop/block) up
-Shift + Ctrl + Up
+Ctrl + Shift + Up
 
 - move statement (method/loop/block) down
-Shift + Ctrl + down
+Ctrl + Shift + down
 
 ===============================================
 
@@ -71,7 +72,7 @@ Ctrl + Alt + L
 Ctrl + Q
 
 - open the scratch file
-Shift + Ctrl + Alt + Insert
+Ctrl + Shift + Alt + Insert
 
 ===============================================
 
@@ -79,7 +80,7 @@ Shift + Ctrl + Alt + Insert
 
 - toggle comment and uncomment
 Ctrl + /
-Shift + Ctrl + /
+Ctrl + Shift + /
 
 ===============================================
 
@@ -96,17 +97,21 @@ Ctrl + NumPad+
 - navigate to class
 Ctrl + N
 
-- navigate to symbol
-Shift + Ctrl + Alt + N
-
 - navigate to file or folder
-Shift + Ctrl + N
+Ctrl + Shift + N
+
+- navigate to symbol
+Ctrl + Shift + Alt + N
 
 - navigate back
 Ctrl + Alt + Left Arrow
 
 - navigate to action
 Ctrl + Shift + A
+
+- search everywhere - classes, files, symbols, actions
+Shift + Shift
+use tab to move between sections in search results
 
 ===============================================
 
