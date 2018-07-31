@@ -115,4 +115,19 @@ use tab to move between sections in search results
 
 ===============================================
 
+# handle tabs
+
+- disable all the tabs / classes
+Ctrl + Shift + A
+tabs placement - None
+
+- recent files
+Ctrl + E
+can search 
+
+- recent edited files
+Ctrl + Shift + E
+
+===============================================
+
 
