@@ -130,4 +130,12 @@ Ctrl + Shift + E
 
 ===============================================
 
+- select one word at a time
+Ctrl + Shift + right/left arrow
+
+- select a line
+Shift + Home/End
+
+===============================================
+
 
