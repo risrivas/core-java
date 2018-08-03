@@ -136,6 +136,12 @@ Ctrl + Shift + right/left arrow
 - select a line
 Shift + Home/End
 
+- extend selection
+Ctrl + W
+
+- shrink selection
+Ctrl + Shift + W
+
 ===============================================
 
 
