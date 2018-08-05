@@ -144,4 +144,13 @@ Ctrl + Shift + W
 
 ===============================================
 
+# code completion
+
+- invoke smart code completion
+after the new keyword
+in the list of parameters of a method call
+in return statements
+
+Ctrl + Shift + Space
+
 
