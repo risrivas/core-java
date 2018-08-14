@@ -156,3 +156,11 @@ Ctrl + Shift + Space
 - invoke all static expressions, collections, lists and arrays
 Ctrl + Shift + Space = 2 times
 
+- static method completion
+Ctrl + Space + Ctrl + Space
+for ex:
+assertEquals
+
+- static import
+Alt + Enter
+
