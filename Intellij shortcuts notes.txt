@@ -164,3 +164,5 @@ assertEquals
 - static import
 Alt + Enter
 
+- postfix completion (null, notnull, try, fori)
+Ctrl + J
