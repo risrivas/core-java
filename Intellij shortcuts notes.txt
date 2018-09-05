@@ -166,3 +166,6 @@ Alt + Enter
 
 - postfix completion (null, notnull, try, fori)
 Ctrl + J
+
+- Generate constructor, getter setters, etc
+Alt + Insert
