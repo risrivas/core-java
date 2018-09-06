@@ -74,6 +74,23 @@ Ctrl + Q
 - open the scratch file
 Ctrl + Shift + Alt + Insert
 
+- presentation mode
+Ctrl + `
+4
+
+- Column selection 
+Shift + Alt + Insert
+
+- select the same variable in the class
+Alt + J
+
+- full screen mode for editor tab
+Ctrl + Shift + F12
+
+- open settings
+Ctrl + Alt + S
+
+
 ===============================================
 
 # commenting and block commenting code
@@ -102,6 +119,9 @@ Ctrl + Shift + N
 
 - navigate to symbol
 Ctrl + Shift + Alt + N
+
+- search a word or text everwhere
+Ctrl + Shift + F
 
 - navigate back
 Ctrl + Alt + Left Arrow
