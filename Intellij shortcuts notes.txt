@@ -189,3 +189,21 @@ Ctrl + J
 
 - Generate constructor, getter setters, etc
 Alt + Insert
+
+======================
+
+# VCS Control
+
+- commit
+Ctrl + K
+
+- to view the changes
+Shift + Tab
+Ctrl + D
+
+- to revert
+Ctrl + Alt + Z
+
+- to push
+Ctrl + Shift + K
+
