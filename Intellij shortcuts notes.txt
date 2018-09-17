@@ -207,3 +207,6 @@ Ctrl + Alt + Z
 - to push
 Ctrl + Shift + K
 
+- VCS operations popup
+Alt + `
+
