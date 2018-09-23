@@ -210,3 +210,19 @@ Ctrl + Shift + K
 - VCS operations popup
 Alt + `
 
+===============
+
+# navigation to compiler error
+
+- build the application
+Ctrl + F9
+
+- navigate to next compiler error
+Ctrl + Alt + down
+
+- navigate to previous compiler error
+Ctrl + Alt + up
+
+- move the cursor to the editor
+ESC
+
