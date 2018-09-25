@@ -84,6 +84,9 @@ Shift + Alt + Insert
 - select the same variable in the class
 Alt + J
 
+- Select All Occurrences
+Ctrl + Alt + Shift + J
+
 - full screen mode for editor tab
 Ctrl + Shift + F12
 
@@ -176,15 +179,15 @@ Ctrl + Shift + Space
 - invoke all static expressions, collections, lists and arrays
 Ctrl + Shift + Space = 2 times
 
-- static method completion
+- display static method suggestion list
 Ctrl + Space + Ctrl + Space
 for ex:
-assertEquals
+Assert.assertEquals
 
 - static import
 Alt + Enter
 
-- postfix completion (null, notnull, try, fori)
+- postfix completion (nn/null, notnull, try, for, fori, synchronized, forr)
 Ctrl + J
 
 - Generate constructor, getter setters, etc
@@ -225,4 +228,14 @@ Ctrl + Alt + up
 
 - move the cursor to the editor
 ESC
+
+================
+
+# language injection
+
+- add language injection
+Alt + Enter
+
+- close current fragment editor or current file
+Ctrl + F4
 
