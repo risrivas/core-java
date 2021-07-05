@@ -1,0 +1,51 @@
+
+## Overview
+- role of annotations
+- adding metadata with annotations
+- commonly used annotations
+- declaring custom annotations
+
+## Annotations
+- special types that act as metadata
+- applied to a specific target
+- no direct affect on target behaviour
+- must be interpreted
+
+## Applying annotations
+- always preceded by @
+- placed directly before the target
+- allowable targets vary with annotation
+
+## Annotations in code
+- Core Java Platform:
+- provides types for creating annotations
+- has only a few annotations
+
+@Override, @Deprecated, @SuppressWarnings
+
+- Other tools/environments
+XML and JSON processors
+IntelliJ
+Java EE
+Spring and Hibernate
+
+
+## Declaring custom annotations
+- can declare custom annotations
+- acts as custom metadata
+- same capabilities as built-in annotations
+
+- special kind of interface; types cannot explicitly implement
+- declared with @interface keyword
+- implicitly extend Annotation interface
+- can be declared as a top-level type
+- can be nested within a class or interface
+
+- can optionally have elements
+- declared as methods
+- set similar to fields
+
+
+
+
+
