@@ -56,5 +56,46 @@ public class Adder implements MathProcessing {
     ...
 }
 
+- in the main program:
 
+CommandKeyword keyWord = new Adder().getClass().getAnnotation(CommandKeyword.class);
+String name = keyWord.name(); // "add"
+
+- above will fail when run as its only available at compile time
+- need to change its retention poilcy to runtime
+
+
+###################################
+# Annotation Access and Interaction
+###################################
+- accessed by reflection
+- get class/member information - provides access to class-level/member annotations
+- calls getAnnotation on target
+
+
+## Retention policy
+- Source: exist only in source file, discarded by compiler
+- Class: compiled into class file, discarded by runtime
+- Runtime: loaded into runtime, accessible with reflection
+
+- example
+@Retention(RetentionPolicy.RUNTIME)
+public @interface CommandKeyword {
+    String name();
+}
+
+
+## Annotation target
+- applied to all - type, field, method, constructor, package, local variable, parameter
+- better to filter and use only few - will generate compiler error if applied to incorrect target
+
+- example
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE})
+public @interface CommandKeyword {
+    String name();
+}
+
+@Target({ElementType.TYPE}) => this will allow for any type, but if annotated before a method => compiler error
+@Target({ElementType.TYPE, ElementType.METHOD}) => will allow method also
 
