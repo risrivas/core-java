@@ -99,3 +99,57 @@ public @interface CommandKeyword {
 @Target({ElementType.TYPE}) => this will allow for any type, but if annotated before a method => compiler error
 @Target({ElementType.TYPE, ElementType.METHOD}) => will allow method also
 
+
+###################################
+# Closer look at Annotation Elements
+###################################
+
+# use unnamed value - remove the key and just use value
+
+- example
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE})
+public @interface CommandKeyword {
+    String value(); // change from name() to value()
+}
+
+
+@CommandKeyword("add") // change from name="add" to just "add"
+public class Adder implements MathProcessing {
+    ...
+    ...
+}
+
+
+# default elements
+
+- example
+a new class Power which doesn't implement MathProcessing and a different method
+
+@CommandKeyword("power")
+public class Power {
+
+    double calculate() {
+
+    }
+    ...
+    ...
+}
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE})
+public @interface CommandKeyword {
+    String value();
+    String method() default "calculate";
+}
+
+- in the main method
+Object processor, double leftVal, double rightVal;
+CommandKeyword keyWord = processor.getClass().getAnnotation(CommandKeyword.class);
+String methodName = keyWord.method(); // "calculate"
+Method processingMethod = processor.getClass().getMethod(methodName, double.class, double.class);
+result = (double) processingMethod.invoke(processor, leftVal, rightVal);
+
+- Valid Annotation Element types:
+Primitives, String, Enum, Annotation, Class<?>
+
